@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
 
+import Loginform from "./components/Loginform";
 function App() {
   return (
-    <div className='body'>
-      <h1>Event Management</h1>
+    <div className="body">
+      <Loginform></Loginform>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+html, body { height: 100%; }
+
+div{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    padding: 3px;
+    font-size: medium;
+    flex-direction: column;
+    text-align: left;
+}
