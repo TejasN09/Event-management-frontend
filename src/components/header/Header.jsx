@@ -2,11 +2,11 @@ import React from "react";
 import "./Header.css";
 import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavLink from "react-bootstrap/esm/NavLink";
-import Button from 'react-bootstrap/Button';
-import { Link } from "react-router-dom";
+// import Navbar from 'react-bootstrap/Navbar';
+// import Nav from 'react-bootstrap/Nav';
+// import NavLink from "react-bootstrap/esm/NavLink";
+// import Button from 'react-bootstrap/Button';
+// import { Link } from "react-router-dom";
 
 //bootstrap
 // const Header = () => {
