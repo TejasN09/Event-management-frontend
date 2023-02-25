@@ -13,7 +13,6 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <div className="body">
-<<<<<<< HEAD
       <Header />
       <Router>
         {/* <h1>Event Management</h1> */}
@@ -27,12 +26,10 @@ function App() {
         {/* <Home /> */}
       </Router>
       <Footer />
-=======
       <h1 class="container justify-center">Event Management</h1>
       {/* <EventCard/> */}
       <SignupForm></SignupForm>
       {/* <LoginForm></LoginForm> */}
->>>>>>> c8003b7 (Signup Refactored)
     </div>
   );
 }
