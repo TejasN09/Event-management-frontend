@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
+import EventCard from "./components/EventCard";
+import LoginForm from "./components/LoginForm";
 import SignupForm from "./components/SignupForm";
 import LoginForm from "./components/Loginform";
 import Header from "./components/header/Header";
@@ -11,6 +13,7 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <div className="body">
+<<<<<<< HEAD
       <Header />
       <Router>
         {/* <h1>Event Management</h1> */}
@@ -24,6 +27,12 @@ function App() {
         {/* <Home /> */}
       </Router>
       <Footer />
+=======
+      <h1 class="container justify-center">Event Management</h1>
+      {/* <EventCard/> */}
+      <SignupForm></SignupForm>
+      {/* <LoginForm></LoginForm> */}
+>>>>>>> c8003b7 (Signup Refactored)
     </div>
   );
 }
