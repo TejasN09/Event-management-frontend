@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import EventCard from "./components/EventCard";
-import LoginForm from "./components/LoginForm";
 import SignupForm from "./components/SignupForm";
 import LoginForm from "./components/Loginform";
 import Header from "./components/header/Header";
