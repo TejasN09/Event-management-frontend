@@ -67,7 +67,7 @@ function LoginForm() {
                     </div>
                   </div>
                   <a
-                    href="#"
+                    href="/forgot-password"
                     class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
                     Forgot password?
@@ -82,7 +82,7 @@ function LoginForm() {
                 <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
                   Don’t have an account yet?{" "}
                   <a
-                    href="#"
+                    href="/register"
                     class="font-medium text-primary-600 hover:underline dark:text-primary-500"
                   >
                     Sign up
