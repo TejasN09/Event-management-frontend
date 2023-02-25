@@ -1,15 +1,11 @@
-import React from 'react';
-import './App.css';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-
-
+import React from "react";
+import "./App.css";
+import SignupForm from "./components/SignupForm";
 function App() {
   return (
     <div className="body">
-       <Header />
-        <h1>Event Management</h1>
-       <Footer />
+      <h1>Event Management</h1>
+      <SignupForm></SignupForm>
     </div>
   );
 }
