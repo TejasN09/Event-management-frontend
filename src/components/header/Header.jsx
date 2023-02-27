@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import LoginForm from "../Loginform";
+import LoginForm from "../LoginForm";
 import SignupForm from "../SignupForm";
 // import Navbar from 'react-bootstrap/Navbar';
 // import Nav from 'react-bootstrap/Nav';
