@@ -10,7 +10,7 @@ const SignupForm = () => {
           </span>
         <div class=" w-full p-3 bg-white rounded-lg shadow dark:border sm:max-w-md  dark:bg-gray-800 dark:border-gray-700">
           <h3 class="mb-3 text-2xl font-semibold text-center">Sign up</h3>
-          <form class="space-y-2 md:space-y-3 " action="#">
+          <form class="space-y-2 md:space-y-3 " action="/signup">
           <input
             type="text"
             class="bg-gray-50  w-full border border-gray-300 mb-2 text-gray-900 sm:text-sm rounded-lg focus:ring-stone-600 focus:border-stone-600 block p-3 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white-100  dark:focus:ring-blue-500 dark:focus:border-blue-500"

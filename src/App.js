@@ -11,7 +11,7 @@ import Home from "./components/home/Home";
 
 function App() {
   return (
-    <div className="body ">
+    <div className="body">
       <Header />
       <Router>
         {/* <h1>Event Management</h1> */}
@@ -25,7 +25,7 @@ function App() {
         </Routes>
         {/* <Home /> */}
       </Router>
-      <Footer />
+      {/* <Footer /> */}
       {/* <h1 class="container justify-center">Event Management</h1> */}
       {/* <EventCard/> */}
       {/* <SignupForm></SignupForm> */}
