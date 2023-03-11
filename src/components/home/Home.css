@@ -1,6 +1,7 @@
 .writer {
   font-family: Courier, monospace;
-  font-size: 30px;
+  font-size: 20px;
+  max-height: min-content;
   display: inline-block;
   max-width: max-content;
   justify-content: center;
@@ -39,15 +40,15 @@
 @media only screen and (max-width: 600px) {
   .writer-text {
     display: inline-block;
-    font-size: 30px;
+    font-size: 25px;
     overflow: hidden;
     padding: 0.4em;
     margin: 0.4em;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     animation: typing 6s steps(30, end), blink .8s step-end infinite;
     white-space: nowrap;
     /* font-size: 20px; */
-    font-weight: 700;
+    font-weight: 600;
     border-right: 4px solid rgb(0, 0, 0);
     box-sizing: border-box;
   }
