@@ -257,6 +257,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import LoginForm from "../Loginform";
 import SignupForm from "../SignupForm";
 import Svg from "./Svg";
+import { Link } from "react-router-dom";
 
 //tailwind
 const Header = () => {
@@ -315,7 +316,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div>
-                    <div className={`flex-1 justify-self-center mt-2 md:block md:mt-0 bg-fuchsia-900 relative ${navbar ? "block" : "hidden"}` }>
+                    <div className={`flex-1 justify-self-center mt-2 md:block md:mt-0 bg-fuchsia-900 relative ${navbar ? "block" : "hidden"}`}>
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 pt-2">
                             <li className="text-white hover:text-indigo-200">
                                 <a href="javascript:void(0)" className="text-white no-underline">Home</a>
@@ -348,14 +349,18 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="hidden space-x-2 md:inline-block">
-                    {showLoginForm ? <SignupForm /> : (
-                        <button onClick={handleLoginClick} type="button" className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 no-underline">
-                            Register
-                        </button>
-                    )}
-                    <a href="javascript:void(0)" className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-800 no-underline">
-                        Login
-                    </a>
+                    <Link to="/register">
+                        {showLoginForm ? <SignupForm /> : (
+                            <button onClick={handleLoginClick} type="button" className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 no-underline">
+                                Register
+                            </button>
+                        )}
+                    </Link>
+                    <Link to="/login">
+                        <a href="javascript:void(0)" className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-800 no-underline">
+                            Login
+                        </a>
+                    </Link>
                 </div>
             </div>
         </nav>
