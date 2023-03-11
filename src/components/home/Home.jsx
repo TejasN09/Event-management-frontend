@@ -1,11 +1,8 @@
 import React from "react";
-import "./Home.css";
-// import { useState } from "react";
 import homeImg from "./../../assets/HomePage_main.jpg";
 import Header from "../header/Header";
-import Footer from "../footer/Footer";
+import "./Home.css";
 import EventCard from "../EventCard";
-
 const Home = () => {
     return (
         <section className="text-gray-600 body-font">
@@ -29,8 +26,15 @@ const Home = () => {
             </div>
 
 
+  return (
+    <>
+      <div className=" flex items-center justify-center  ">
+        <img src={homeImg} alt="homePage" className="" />
+      </div>
+      <div className="writer">
+        <div className="writer-text">
+          Host Events
         </div>
-        <Footer />
         </section>
     )
 }
