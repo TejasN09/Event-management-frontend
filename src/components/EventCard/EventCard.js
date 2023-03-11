@@ -1,27 +1,8 @@
-<<<<<<< HEAD:src/components/EventCard/EventCard.js
-
-import React from 'react';
-import Header from '../header/Header';
-import "./EventCard.css"
-=======
 import React from "react";
-import Header from "./header/Header";
->>>>>>> 5b96d9b (Home page design):src/components/EventCard.js
-
+import Header from "../header/Header";
 const EventCard = ({ title, description }) => {
   return (
     <>
-<<<<<<< HEAD:src/components/EventCard/EventCard.js
-    {/* <Header/> */}
-      <div className="event-card-container max-w-sm bg-white border border-gray-200 rounded-xl drop-shadow-2xl dark:bg-gray-800 dark:border-gray-700 mt-10">
-        <a href="#">
-          <img
-            className="rounded-xl p-1 border-2 border-white"
-            src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt=""
-          />
-        </a>
-=======
       {/* <Header/> */}
       <div className="bg-gray-400 dark:bg-slate-100 mb-auto max-w-sm m-1 border-fuchsia-600 border-1 p-1 rounded-xl drop-shadow-2xl ">
         <img
@@ -29,7 +10,6 @@ const EventCard = ({ title, description }) => {
           src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt=""
         />
->>>>>>> 5b96d9b (Home page design):src/components/EventCard.js
         <div className="p-2">
           <a href="#" className="no-underline ">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-stone-900">
