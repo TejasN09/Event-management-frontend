@@ -4,6 +4,7 @@ import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LoginForm from "../Loginform";
 import SignupForm from "../SignupForm";
+import { Link } from "react-router-dom";
 
 
 //tailwind
@@ -167,7 +168,7 @@ const Header = () => {
                                 <a href="javascript:void(0)" className="text-white no-underline">Home</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href="javascript:void(0)" className="text-white no-underline">Blog</a>
+                                <a href="/events" className="text-white no-underline">Events</a>
                             </li>
                             <li className="text-white hover:text-indigo-200 no-underline">
                                 <a href="javascript:void(0)" className="text-white no-underline">About US</a>
@@ -178,31 +179,34 @@ const Header = () => {
                         </ul>
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                             <a
-                                 href="javascript:void(0)"
-                                 className="no-underline inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 mb-3"
-                             >
-                                 Register
-                             </a>
-                             <a
-                                 href="javascript:void(0)"
-                                 className="no-underline inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100 relative bottom-3"
-                             >
-                                 Login
-                             </a>
-                         </div>
+                            <a
+                                href="javascript:void(0)"
+                                className="no-underline inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 mb-3"
+                            >
+                                Register
+                            </a>
+                            <a
+                                href="javascript:void(0)"
+                                className="no-underline inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100 relative bottom-3"
+                            >
+                                Login
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="hidden space-x-2 md:inline-block">
-                     {showLoginForm ? <SignupForm /> : (
-                         <button onClick={handleLoginClick} type="button" className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 no-underline">
-                             Register
-                         </button>
-                     )}
-                     <a href="javascript:void(0)" className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-800 no-underline">
-                         Login
-                     </a>
-                 </div>
+                    {/* {showLoginForm ? <SignupForm /> : ( */}
+                    <Link to="/register">
+                        <button type="button" className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 no-underline">
+                            Register
+                        </button>
+                    </Link>
+                    <Link to="/login">
+                        <button type="button" className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-800 no-underline">
+                            Login
+                        </button>
+                    </Link>
+                </div>
             </div>
         </nav>
     )

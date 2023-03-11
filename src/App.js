@@ -12,22 +12,12 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <div className="body ">
-      <Header />
-        {/* <h1>Event Management</h1> */}
-
-        {/* <SignupForm></SignupForm> */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/register" exact element={<SignupForm />} />
           <Route path="/login" exact element={<LoginForm />} />
           <Route path="/events" exact element={<EventCard />} />
         </Routes>
-        {/* <Home /> */}
-      <Footer />
-      {/* <h1 class="container justify-center">Event Management</h1> */}
-      {/* <EventCard/> */}
-      {/* <SignupForm></SignupForm> */}
-      {/* <LoginForm></LoginForm> */}
     </div>
   );
 }

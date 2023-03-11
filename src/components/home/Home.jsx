@@ -2,11 +2,14 @@ import React from "react";
 import "./Home.css";
 // import { useState } from "react";
 import homeImg from "./../../assets/HomePage_main.jpg";
+import Header from "../header/Header";
 import Footer from "../footer/Footer";
+import EventCard from "../EventCard";
 
 const Home = () => {
     return (
         <section className="text-gray-600 body-font">
+            <Header />
         <div className="home w-full mx-auto">
             <div className="home__container ">
                 <img src={homeImg} alt="homePage" className="relative w-fit left-2/4 h-72 object-cover  " />
@@ -27,6 +30,7 @@ const Home = () => {
 
 
         </div>
+        <Footer />
         </section>
     )
 }

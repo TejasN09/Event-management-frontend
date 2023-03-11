@@ -1,12 +1,12 @@
 function LoginForm() {
   return (
     <>
-        <section class="h-screen bg-gray-50 dark:bg-gray-900">
+        <section class="h-screen bg-gray-50 bg-fuchsia-800">
           <div class="h-screen flex flex-col items-center justify-center px-3 my-auto mx-auto lg:py-2">
             <span class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
               Already Have Account?
             </span>
-            <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+            <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 bg-fuchsia-600 ">
               <div class="p-6 space-y-4 md:space-y-6 sm:p-6">
                 <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-xl dark:text-black">
                   Sign in to your account
@@ -23,7 +23,8 @@ function LoginForm() {
                       type="email"
                       name="email"
                       id="email"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5
+                       bg-fuchsia-500  dark:border-gray-600 placeholder-white text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="name@company.com"
                       required=""
                     ></input>
@@ -40,7 +41,8 @@ function LoginForm() {
                       name="password"
                       id="password"
                       placeholder="••••••••"
-                      class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 
+                      bg-fuchsia-500  dark:border-gray-600 placeholder-white text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       required=""
                     ></input>
                   </div>
@@ -58,7 +60,7 @@ function LoginForm() {
                       <div class="ml-3 text-sm">
                         <label
                           for="remember"
-                          class="text-gray-500 dark:text-gray-300"
+                          class="text-gray-500 dark:text-gray-900"
                         >
                           Remember me
                         </label>
@@ -73,14 +75,14 @@ function LoginForm() {
                   </div>
                   <button
                     type="submit"
-                    class="w-full dark:text-black bg-sky-100 hover:bg-sky-500 focus:ring-4 focus:outline-none focus:ring-sky-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
+                    class="w-full dark:text-black bg-sky-400 hover:bg-sky-500 focus:ring-4 focus:outline-none focus:ring-sky-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center "
                   >
                     Sign in
                   </button>
                   <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
                     Don’t have an account yet?{" "}
                     <a
-                      href="/signup"
+                      href="/register"
                       class="font-medium text-primary-600 hover:underline dark:text-primary-500"
                     >
                       Sign up
