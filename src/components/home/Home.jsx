@@ -33,7 +33,7 @@
 import React from "react";
 import homeImg from "./../../assets/HomePage_main.jpg";
 import "./Home.css";
-import EventCard from "../EventCard";
+import EventCard from "../EventCard/EventCard";
 import { Link } from "react-router-dom";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
@@ -52,11 +52,15 @@ const Home = () => {
             </div>
           </div>
           <p className="text-xl mt-4">Hello world</p>
-          <button className="mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Learn More</button>
+          <button className="mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Get Started</button>
         </div>
       </div>
-      <div className="mt-[30rem]"> 
-        <EventCard title="Tejas N" description={"Im a man"} />
+      <div className="mt-[30rem] cardListing">
+        <h1 className="flex items-center justify-center h-10">Some Ongoing Events</h1>
+        <EventCard title={"Tejas N"} description={"Im a man"} />
+        <EventCard title={"Shujaath khan"} description={"he is women"} />
+        <EventCard title={"Chess Game"} description={"Chess Game is wonderful game"} />
+        <EventCard title={"Tic tac tao"} description={"Tic tac tao is wonderful game"} />
       </div>
       <Footer />
     </>
