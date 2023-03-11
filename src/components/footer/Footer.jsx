@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className=" relative w-full">
-      <footer class="footer bg-neutral-200 text-center text-white bg-fuchsia-800 w-full">
+      <footer class="footer text-center text-white bg-fuchsia-900 w-full">
         <div class="container pt-9">
           <div class="mb-3 flex justify-center">
             <a href="#!" class="mr-9 text-neutral-800 dark:text-neutral-200">
@@ -73,7 +73,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div class="bg-neutral-200 p-1 text-center text-white bg-fuchsia-800">
+        <div class=" p-1 text-center text-white bg-fuchsia-900">
           © 2023 Copyright
         </div>
           <span class="p-1 m-1">Created By Shujaath and Tejas</span>
