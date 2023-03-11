@@ -16,10 +16,9 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/register" exact element={<SignupForm />} />
           <Route path="/login" exact element={<LoginForm />} />
-          <Route path="/events" exact element={<EventCard />} />
+          <Route path="/events" exact element={<EventCard title="hello" description="damnnn"/>} />
         </Routes>
         {/* <Home /> */}
-      <Footer />
       {/* <h1 class="container justify-center">Event Management</h1> */}
       {/* <EventCard/> */}
       {/* <SignupForm></SignupForm> */}
