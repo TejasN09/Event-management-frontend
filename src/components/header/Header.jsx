@@ -76,7 +76,7 @@ const Header = () => {
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 pt-2">
               <li className="text-white hover:text-indigo-200">
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   className="text-white no-underline"
                 >
                   Home
@@ -84,10 +84,10 @@ const Header = () => {
               </li>
               <li className="text-white hover:text-indigo-200">
                 <a
-                  href="javascript:void(0)"
+                  href="/events"
                   className="text-white no-underline"
                 >
-                  Blog
+                  Events
                 </a>
               </li>
               <li className="text-white hover:text-indigo-200 no-underline">

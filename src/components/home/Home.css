@@ -31,7 +31,7 @@
     animation: typing 3s steps(1, end), blink 0.45s step-end infinite;
     white-space: nowrap;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: bold;
     border-right: 4px solid orange;
     box-sizing: border-box;
   }

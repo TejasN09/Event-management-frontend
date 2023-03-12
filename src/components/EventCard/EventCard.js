@@ -1,10 +1,12 @@
 import React from "react";
 import Header from "../header/Header";
+import "./EventCard.css"
+
 const EventCard = ({ title, description }) => {
   return (
     <>
       {/* <Header/> */}
-      <div className="bg-gray-400 dark:bg-slate-100 mb-auto max-w-sm m-1 border-fuchsia-600 border-1 p-1 rounded-xl drop-shadow-2xl ">
+      <div className="event-card-container bg-gray-400 dark:bg-slate-100 mb-auto max-w-sm m-1 border-fuchsia-600 border-1 p-1 rounded-xl drop-shadow-2xl ">
         <img
           className="rounded-xl p-1 border-1 drop-shadow-2xl"
           src="https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=600"
