@@ -110,13 +110,13 @@ const Header = () => {
 
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
-                href="javascript:void(0)"
+                href="/register"
                 className="no-underline inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800 mb-3"
               >
                 Register
               </a>
               <a
-                href="javascript:void(0)"
+                href="/login"
                 className="no-underline inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100 relative bottom-3"
               >
                 Login
@@ -125,6 +125,7 @@ const Header = () => {
           </div>
         </div>
         <div className="hidden space-x-2 md:inline-block">
+          <Link to="/register">
           {showLoginForm ? (
             <SignupForm />
           ) : (
@@ -136,8 +137,10 @@ const Header = () => {
               Register
             </button>
           )}
+          </Link>
+
           <a
-            href="javascript:void(0)"
+            href="/login"
             className="px-4 py-2 text-gray-900 bg-white rounded-md shadow hover:bg-gray-800 no-underline"
           >
             Login

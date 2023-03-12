@@ -3,7 +3,7 @@ function LoginForm() {
     <>
       <section class="h-screen bg-fuchsia-800">
         {/* <h1 class="text-4xl font-bold text-center text-white absolute" >Welcome to Event Management</h1> */}
-        <h1 className="text-4xl font-bold text-center text-white absolute w-full mt-10">Welcome to Event Management</h1>
+        <h1 className="text-4xl font-bold text-center text-white absolute w-full mt-10">Welcome back to Event Management</h1>
 
         <div class="h-screen flex flex-col items-center justify-center px-3 my-auto mx-auto lg:py-2">
           <span class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
