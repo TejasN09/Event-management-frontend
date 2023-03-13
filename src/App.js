@@ -9,7 +9,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import EventListing from "./components/EventCard/EventListing";
 import Details from "./components/details/Details";
-
+import EventForm from "./components/EventCard/EventForm"
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
           <Route path="/login" exact element={<LoginForm />} />
           <Route path="/events" exact element={<EventListing />} />
           <Route path="/details" element={<Details />} />
+          <Route path="/addevent" element={<EventForm />} />
         </Routes>
         {/* <Home /> */}
       {/* <h1 class="container justify-center">Event Management</h1> */}
